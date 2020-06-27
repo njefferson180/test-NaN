@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section-1 {
+	padding: 20px 80px;
+	background: #555;
+}
+
+.section-1 .row {
+	background: #fff;
+}
+
+/**** MENU ****/
+.section-1 .row div .menu {
+	display: flex;
+	flex-direction: column;
+	background: #332a7c;
+	margin: 20px 0;
+	border-radius: 15px;
+}
+
+.section-1 .row div .menu a img {
+	height: 20px;
+}
+
+.section-1 .row div .menu h4 {
+	text-align: center;
+	color: #fff;
+	font-family: Century Gothic,Arial, Helvetica, sans-serif;
+}
+
+.section-1 .row div .menu h4 span {
+	font-weight: bold;
+}
+
+.section-1 .row div .menu .sign-out {
+	text-align: center;
+	margin-top: 30px;
+}
+
+.section-1 .row div .menu a {
+	margin: 25px 25px;
+	margin-top: 40px;
+}
+
+.section-1 .row div .menu a:hover {
+	background: #fff;
+	width: 60px;
+	padding: 8px 0;
+	border-radius: 25px;
+}
+
+.section-1 .row div .head {
+	display: flex;
+	justify-content: space-between;
+}
+
+.section-1 .row div .head .banner {
+	background: #ffa000;
+	color: #fff;
+	font-family: Century Gothic,Arial, Helvetica, sans-serif;
+	padding: 10px 40px;
+	border-radius: 15px;
+	margin-top: 50px;
+}
+
+/**** utilisateur ****/
+.section-1 .row div.head .user {
+	list-style-type: none;
+	display: inline-flex;
+    padding: 0 5px;
+    margin-top: 50px;
+    margin-right: 30px;
+}
+
+.section-1 .row div.head .user img {
+	height: 30px;
+	width: 30px;
+	border-radius: 5px;
+}
+
+/**** contenu block 1 ****/
+.section-1 .row .bloc-1 {
+	margin-top: 15px;
+}
+
+.section-1 .row .bloc-1 .calendrier {
+	display: flex;
+	align-items: center;
+	align-content: center;
+}
+
+.section-1 .row .bloc-1 .calendrier div {
+	margin-top: 20px;
+	margin: 0 60px;
+}
+
+.section-1 .row .bloc-1 .calendrier .bouton {
+	background: #332a7c;
+	padding: 2px 6px;
+	border-radius: 10px;
+}
+
+.section-1 .row .bloc-1 .calendrier .bouton a {
+	padding:0 10px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #fff;
+
+}
+
+.section-1 .row .bloc-1 .jour {
+	display: flex;
+}
+
+.section-1 .row .bloc-1 .jour div {
+	padding: 5px 30px;
+	text-align: center;
+}
+
+.section-1 .row .bloc-1 .jour .fond-active {
+	background: #f25767;
+	margin: 5px 0px;
+	padding: 5px 8px;
+	height: 60px;
+	border-radius: 15px;
+}
+
+.section-1 .row .bloc-1 .jour .fond-active:hover {
+	box-shadow: 1px 2px 12px #555;
+	cursor: pointer;
+}
+
+.section-1 .row .bloc-1 .calendrier .nom-mois {
+	background: #fff;
+	padding: 2px 10px;
+	border-radius: 10px;
+	margin-left: 20px;
+	background: #f6f6fc;
+}
+
+.section-1 .row .divider {
+	height: 2px;
+	width: 100%;
+	background: #555;
+}
+
+/**** contenu block  ****/
+.section-1 .row .bloc-2 .sous-entete {
+	display: flex;
+	justify-content: space-between;
+}
+
+.section-1 .row .bloc-2 .sous-entete h4 {
+	font-family: Century Gothic,Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+.section-1 .row .bloc-2 div {
+	margin-top: 10px;
+}
+.section-1 .row .bloc-2 div a {
+	text-decoration: none;
+	color: #c0c0c5;
+	font-family: Century Gothic,Arial, Helvetica, sans-serif;
+}
+
+.section-1 .row .bloc-2 div a:hover {
+	color: #000;
+	transition: all 0.3 ease-in;
+}
+
+.section-1 .row .bloc-2 .element {
+	display: flex;
+}
+
+.section-1 .row .bloc-2 .element div {
+	margin: 20px 30px;
+	background: #fff;
+	text-align: center;
+	padding: 5px 10px;
+	border-radius: 15px;
+	border: 2px solid #f7f7fb;
+}
+
+.section-1 .row .bloc-2 .element .fond:hover {
+	box-shadow: 1px 2px 12px #555;
+}
+
+.section-1 .row .bloc-2 .element .fond .fond-number:hover {
+	background: #ffa000;
+	padding: 5px 10px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.section-1 .row .bloc-2 .element .fond .fond-number {
+	font-weight: bold;
+	font-family: Century Gothic,Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+.section-1 .row .bloc-2 .element .fond .titre {
+	font-size: 10px;
+	font-family: Century Gothic,Arial, Helvetica, sans-serif;
+}
+
+/**** contenu block 3 ****/
+.section-1 .row .bloc-3 h4 {
+	font-family: Century Gothic,Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+.section-1 .row .bloc-3 .sous-bloc-1 {
+	background: #fff;
+	margin: 0 50px;
+	border-radius: 20px;
+	border: 2px solid #f6f6fc;
+}
+
+.section-1 .row .bloc-3 .sous-bloc-1:hover {
+	box-shadow: 1px 2px 12px #555;
+	cursor: pointer;
+}
+
+.section-1 .row .bloc-3 .sous-bloc-2:hover {
+	box-shadow: 1px 2px 12px #555;
+	cursor: pointer;
+}
+
+.section-1 .row .bloc-3 .sous-bloc-1 h5 {
+	font-family: Century Gothic,Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+.section-1 .row .bloc-3 .sous-bloc-2 {
+	background: #332a7c;
+	border-radius: 20px;
+	border: 2px solid #332a7c;
+}
+
+.section-1 .row .bloc-3 .sous-bloc-2 h5 {
+	font-family: Century Gothic,Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #fff;
+}
+
+.section-1 .row .bloc-3 .sous-bloc-1 p , .section-1 .row .bloc-3 .sous-bloc-2 p {
+	color: #dddde3;
+}
+
+/**** contenus a droite ****/
+.section-1 .row .bloc-right {
+	background: #f6f6fc;
+	position: absolute;
+	margin-top: -550px;
+	margin-left: 756px;
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+}
+
+.section-1 .row .bloc-right .box {
+	display: flex;
+	flex-wrap: wrap;
+	background: #f6f6fc;
+}
+
+.section-1 .row .bloc-right .box .box-1 {
+	background: #fff;
+	padding: 30px 20px;
+	margin: 10px 20px;
+	width: 30%;
+}
